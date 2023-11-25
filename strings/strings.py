@@ -1,7 +1,7 @@
 name = 'marie moreau' # this is a string Marie Moreau
-# print(name.capitalize()) # Marie moreau
+print(name.capitalize()) # Marie moreau
 
-# print(name.title())
+print(name.title())
 
 """
 We want: To store all addresses in uppercase, but if the already uppercased,
@@ -18,6 +18,21 @@ address = '221 baker street' # 221 BAKER STREET
 if (address.isupper()):
 	pass
 else:
-	print(address.upper())
+	upper_cased_address = address.upper()
 
-# print(address)
+print(upper_cased_address)
+
+"""
+Note: All string methods will give you back a new string
+"""
+
+label = f'''
+=============================
+NAME: {name.title()}
+ADDRESS: {upper_cased_address}
+PHONE: +256788888888
+COMPANY: FEDEX
+==============================
+'''
+
+print(label)
