@@ -16,6 +16,10 @@ num3 = 8
 # else:
 # 	print("num1 is not less than num2")
 
+"""
+num1 = 5
+num2 = 5
+"""
 
 # revised version with three scenarios
 # if num1 < num2:
@@ -35,10 +39,10 @@ num3 = 8
 
 # Hawa - "Here is your Gold medal"
 # Marie - "Here is your Silver medal"
-# Aba - Bronze
+# Aba - "Here is your Bronze medal"
 # "Thanks for trying"
 
-# student_name = "Lisa"
+# student_name = "Aba"
 
 # if student_name == "Hawa":
 # 	print("Here is your Gold medal")
@@ -57,13 +61,13 @@ If the sun is out, but it is not hot, Don't wear a sweater
 """
 # and, or, not
 
-raining = True
+raining = False
 tuesday = True
 sun_is_out = True
 day_is_hot = False
 
-if (raining and tuesday):
-	print("Wear my yellow jacket")
+# if (raining and tuesday):
+# 	print("Wear my yellow jacket")
 
-if (sun_is_out == True and day_is_hot == False):
-	print("Don't wear a sweater")
+# if (sun_is_out and not day_is_hot):
+# 	print("Don't wear a sweater")
