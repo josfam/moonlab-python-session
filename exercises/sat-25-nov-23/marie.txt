@@ -4,7 +4,7 @@ student = "00678, Marie Moreau, Lamplighter School of Crime-fighting, Godolkin"
 
 where:
 	"00678", is the student ID
-	"Marie Moreau", is the student's first and last name repectively
+	"Marie Moreau", is the student's first and last name respectively
 	"Lamplighter School of Crimefighting", is the student's college, and
 	"Godolkin", is the student's university.
 
