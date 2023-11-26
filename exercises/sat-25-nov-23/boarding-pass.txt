@@ -39,10 +39,6 @@ Output the same boarding pass, but with all passenger information displayed in
 all uppercase text.
 
 
-Note: Even though the example pass above is neatly aligned, you need not spend time
-getting it to be super perfect in terms of alignment (you can if you want to).
-
-
 ==== Your limitations when solving this problem ====
 1) Don't touch the passenger_info list
 
