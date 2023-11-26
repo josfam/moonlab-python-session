@@ -1,0 +1,10 @@
+In a file called experiments.py, experiment with 4 or more string methods
+on a string(or strings) of your choice, and print the result of using the methods on that
+string.
+
+Recall: There are many resources on the internet where you can find out what
+string methods python comes with.
+Here's the resource we used in the last session: https://www.w3schools.com/python/python_ref_string.asp
+
+Yes, you can--if you like--combine string methods with any other thing we've learned so far
+(like conditionals, for instance).

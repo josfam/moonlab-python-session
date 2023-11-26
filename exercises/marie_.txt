@@ -1,0 +1,53 @@
+In the file marie.py, you will find this string:
+
+student = "00678, Marie Moreau, Lamplighter School of Crime-fighting, Godolkin"
+
+where:
+	"00678", is the student ID
+	"Marie Moreau", is the student's first and last name repectively
+	"Lamplighter School of Crimefighting", is the student's college, and
+	"Godolkin", is the student's university.
+
+
+You will also find this dictionary
+(you are not allowed to change the contents of this dictionary in any way):
+
+student = {
+	"00678": {
+		"first_name": first_name,
+		"last_name": last_name,
+		"university": uni,
+		"college": college,
+	}
+}
+
+The dictionary has one item whose key is "00678", and whose value is yet another dictionary
+with keys and values of its own. This one item is an alternative representation of the same student
+we saw earlier in the string.
+
+
+============= YOUR TASK ============
+
+Add python code to your marie.py file such that when the program runs, 
+the output looks something like this:
+
+{'00678': {'college': 'Godolkin',
+           'first_name': '00678',
+           'last_name': 'Marie Moreau',
+           'university': 'Lamplighter School of Crime-fighting'}}
+
+In particular, the values first_name, last_name, uni and college have been replaced
+with the correct information from the string representation.
+
+
+==== Your limitations when solving this problem ====
+You can only add code in between the "# > Only add code below this line" line and
+the "# > Only add code above this line" line. 
+In other words, touch nothing else inside the file.
+
+
+==== Things to think about ====
+1) What we are actually doing here is taking the string, and breaking it up 
+into parts ...somehow, so we can later feed those parts into the dictionary.
+
+2) You may also need to keep track of those parts for the program to work correctly.

@@ -1,0 +1,50 @@
+============= CONTEXT ============
+Say that you are trying to print electronic boarding passes for the prestigious
+Dutch airline, KLM.
+
+In this system, boarding passes to be printed are stored as python lists. 
+Specifically, a boarding pass has passenger and flight information in this specific
+order from left to right:
+- Flight number
+- Passenger name
+- Origin
+- Destination
+- Date the pass was printed
+- Seat number
+- Boarding class of the passenger
+- Boarding gate
+- Departure time
+
+============= YOUR TASK (PART 1) ============
+
+In the file, boarding-pass.py, add code that will construct a string/strings 
+which when printed will output a boarding pass that is identical to the one below.
+
+--------------------------------------------------------
+BOARDING PASS   KLM
+--------------------------------------------------------
+FLIGHT NO.      GATE    CLASS   SEAT   DEPARTURE TIME
+--------------------------------------------------------
+KL 0862         C       a       a1     11:30AM
+--------------------------------------------------------
+NAME: Jordan Li         CLASS: a
+FROM: tokyo/nrt         DATE: 26NOV23
+TO: amsterdam/ams
+--------------------------------------------------------
+
+
+============= YOUR TASK (PART 2) ============
+
+Output the same boarding pass, but with all passenger information displayed in
+all uppercase text.
+
+
+Note: Even though the example pass above is neatly aligned, you need not spend time
+getting it to be super perfect in terms of alignment (you can if you want to).
+
+
+==== Your limitations when solving this problem ====
+1) You have to include passenger information in whatever strings you are going to print.
+
+2) That passenger information cannot just be copied-and-pasted directly into the string.
+Use some python language features to achieve this instead.
